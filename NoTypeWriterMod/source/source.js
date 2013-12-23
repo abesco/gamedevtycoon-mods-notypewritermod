@@ -21,7 +21,7 @@ var NoTypeWriterModAbescoUG = {};
             var proxied = $.fn.typewrite;
                 $.fn.typewrite = function(b) {
                 b.delay = 1;
-                console.log( this, arguments );
+                // console.log( this, arguments );
                 return proxied.apply( this, arguments );
             };
         })();
