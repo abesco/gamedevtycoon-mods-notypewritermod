@@ -3,19 +3,70 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gamedevtycoon-mods-notypewritermod by abesco</title>
+    <title>NoTypeWriterMod Expansion for GameDevTycoon by alphabit</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/smoothness/jquery-ui.min.css">
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+        #tabs {
+            font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+        }
+        #tabs ul {
+            margin: 0; padding: 0;
+            padding-left:5px;
+            list-style-type:square;
+        }
+        
+        #tabs ul li {
+                 
+                color:rgb(73, 73, 73);
+        }    
+    </style>
+    <script src="javascripts/jquery-10.2.js"></script>
+    <script src="javascripts/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="javascripts/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                        animation_speed: 'normal', /* fast/slow/normal */
+                        slideshow: false, /* false OR interval time in ms */
+                        autoplay_slideshow: false, /* true/false */
+                        opacity: 0.80, /* Value between 0 and 1 */
+                        show_title: true, /* true/false */
+                        allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+                        default_width: 500,
+                        default_height: 344,
+                        counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+                        theme: 'light_rounded', /* pp_default light_rounded / dark_rounded / light_square / dark_square / facebook */
+                        horizontal_padding: 20, /* The padding on each side of the picture */
+                        hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+                        wmode: 'opaque', /* Set the flash wmode attribute */
+                        autoplay: false, /* Automatically start videos: True/False */
+                        modal: false, /* If set to true, only the close button will close the window */
+                        deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+                        overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+                        keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+                        changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
+                        callback: function(){}, /* Called when prettyPhoto is closed */
+                        ie6_fallback: true,
+                        social_tools: ''
+            });
+            
+            $('#tabs').tabs();
+          });
+        </script>        
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Gamedevtycoon-mods-notypewritermod</h1>
+        <h1>NoTypeWriterMod</h1>
         <p>NoTypeWriter Expansion for the game GameDevTycoon from Greenheartgames</p>
 
         <p class="view"><a href="https://github.com/abesco/gamedevtycoon-mods-notypewritermod">View the Project on GitHub <small>abesco/gamedevtycoon-mods-notypewritermod</small></a></p>
@@ -26,24 +77,26 @@
           <li><a href="https://github.com/abesco/gamedevtycoon-mods-notypewritermod/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/abesco/gamedevtycoon-mods-notypewritermod">View On <strong>GitHub</strong></a></li>
         </ul>
+        
+        <hr>
+                Launch:       December 23th, 2013<br>
+                Last Update:  December 23th, 2013<br><br>
+                <hr>
+<h5>Current screenshots</h5>
+no screenshots available
+        
       </header>
       <section>
-        <h3>
-<a name="notypewritermod-expansion-module" class="anchor" href="#notypewritermod-expansion-module"><span class="octicon octicon-link"></span></a>NoTypeWriterMod Expansion Module</h3>
+              <h3>Changelogs</h3>
+<hr>
 
-<h4>
-<a name="for-gamedevtycoon" class="anchor" href="#for-gamedevtycoon"><span class="octicon octicon-link"></span></a>for GameDevTycoon</h4>
-
-<hr><p>**Disables the Typewriter effect on all dialogs and notifications. **</p>
-
+<div id="tabs">
 <ul>
-<li>Launch:       December 23th, 2013</li>
-<li>Last Update:  December 23th, 2013</li>
-</ul><h5>
-<a name="changelog-version-100" class="anchor" href="#changelog-version-100"><span class="octicon octicon-link"></span></a>ChangeLog Version 1.0.0</h5>
-
-<p><strong>Last Update:  December 23th, 2013</strong></p>
-
+<li><a href="#tab-1"><strong>1.0.0</strong></a></li>
+</ul>
+<div id="tab-1">
+<h5>
+<a name="changelog-version-100" class="anchor" href="#changelog-version-100"><span class="octicon octicon-link"></span></a>ChangeLog Version 1.0.0 (December 23th, 2013)</h5>
 <ul>
 <li>First public release</li>
 <li>TypeWriter prototype function overriden using the jQuery proxy pattern and delay set to 1 for immediate text display</li>
