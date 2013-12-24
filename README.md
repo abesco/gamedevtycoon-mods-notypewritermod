@@ -5,7 +5,13 @@
 **Disables the Typewriter effect on all dialogs and notifications. **
 
 - Launch:       December 23th, 2013
-- Last Update:  December 23th, 2013
+- Last Update:  December 24th, 2013
+
+#####ChangeLog Version 1.1.0#####
+
+**Last Update:  December 24th, 2013**
+
+- TypeWriter delay can be set in the main game settings screen in the NoTypeWriterMod section
 
 #####ChangeLog Version 1.0.0#####
 

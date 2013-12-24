@@ -9,7 +9,7 @@
     - Notes:        None.
     - Credits:      None.
 - Version Information
-    - Latest:       1.0.0
+    - Latest:       1.1.0
     - Launch:       December 23th, 2013
-    - Last Update:  December 23th, 2013                    
+    - Last Update:  December 24th, 2013                    
     
