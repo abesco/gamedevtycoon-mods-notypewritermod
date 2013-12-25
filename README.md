@@ -5,7 +5,14 @@
 **Disables the Typewriter effect on all dialogs and notifications. **
 
 - Launch:       December 23th, 2013
-- Last Update:  December 24th, 2013
+- Last Update:  December 25th, 2013
+
+#####ChangeLog Version 1.2.0#####
+
+**Last Update:  December 25th, 2013**
+
+- Configurable conference screen speed up (results will be immediately be shown)
+- Configurable conference skip over (conference screen can be skipped completely)
 
 #####ChangeLog Version 1.1.0#####
 

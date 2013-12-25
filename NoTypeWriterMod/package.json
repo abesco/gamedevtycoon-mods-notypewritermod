@@ -1,10 +1,10 @@
 {
     "id" : "NoTypeWriterMod-AbescoUG",
     "name" : "No Typewriter Module",
-    "version":"1.0.0",
+    "version":"1.2.0",
     "author":"Francesco Abbattista",
     "url":"",
-    "description" : "Expansion module that removes the typewriter effect on dialogs and notifications. No more... tick tick tack... clack :P",
+    "description" : "Expansion module that removes the typewriter effect on dialogs, notifications and allows to speed up or skip conference booth screens. No more... tick tick tack... clack and click :P",
     "main" : "./NoTypeWriterMod.js",
     "dependencies" : {
         "gdt-modAPI":"0.1.x"
